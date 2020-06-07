@@ -8,7 +8,7 @@ s.summary = "RWPickFlavor lets a user select an ice cream flavor."
 s.requires_arc = true
 
 # 2
-s.version = "0.1.0"
+s.version = "0.3.0"
 
 # 3
 s.license = { :type => "MIT", :file => "LICENSE" }
@@ -20,8 +20,8 @@ s.author = { "Abdul Hasamapetilon" => "apostol516@gmail.com" }
 s.homepage = "https://github.com/TheCodedSelf/RWPickFlavor"
 
 # 6 - Replace this URL with your own Git URL from "Quick Setup"
-#s.source = { :git => "https://github.com/Apostol123/RWPickFlavor.git",
-             #:tag => "#{s.version}" }
+s.source = { :git => "https://github.com/Apostol123/RWPickFlavor.git",
+             :tag => "#{s.version}" }
 
 # 7
 
@@ -33,7 +33,7 @@ s.dependency 'MBProgressHUD', '~> 1.1.0'
 s.source_files = "RWPickFlavor/**/*.{swift}"
 
 # 9
-#s.resources = "RWPickFlavor/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
+s.resources = "RWPickFlavor/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
 
 # 10
 s.swift_version = "4.2"
